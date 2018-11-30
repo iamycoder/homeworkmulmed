@@ -1,0 +1,36 @@
+Tugas No. 1
+
+A = [20 8; 8 16]
+B = [1 2; 1 4]
+
+disp('Penjumlahan Matriks= ');
+jum = A+B;
+disp(jum);
+
+disp('Pengurangan Matriks= ');
+jum = A-B;
+disp(jum);
+
+disp('Pembagian Matriks= ');
+jum = A / B;
+disp(jum);
+
+disp('Pangkat Matriks= ');
+jum = A.^B;
+disp(jum);
+
+disp('Perkalian Antar Matriks= ');
+hasil1 = (A(1)*B(1) + A(2)*B(3));
+hasil2 = (A(1)*B(2) + A(2)*B(4));
+hasil3 = (A(3)*B(1) + A(4)*B(3));
+hasil4 = (A(3)*B(3) + A(3)*B(4));
+jum = [hasil1 hasil2; hasil3 hasil4];
+disp(jum);
+
+disp('Perkalian Antar Elemen= ');
+jum = A*B;
+disp(jum);
+
+disp('Perkalian Skalar= ');
+jum = A*B;
+disp(jum);
