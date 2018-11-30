@@ -1,0 +1,14 @@
+Tugas No. 2
+
+x = input('Masukan A = ');
+y = input('Masukan B = ');
+
+if x > y 
+    hasil = 'A lebih besar dari B';
+elseif x < y
+    hasil = 'B lebih besar dari A';
+elseif x == y
+    hasil = 'A sama dengan B';
+end
+    
+disp(hasil);
